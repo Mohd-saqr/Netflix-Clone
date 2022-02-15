@@ -1,0 +1,10 @@
+/* style={{maxWidth:"200px"}} */
+
+.body img{
+   max-height: 400px;
+   width: 400px;
+   padding: 10px;
+}
+#op{
+    margin-left: 10px;
+}
