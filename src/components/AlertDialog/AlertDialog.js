@@ -11,9 +11,9 @@ export default function AlertDialog({open,handleDialogClose,id,getFavData}) {
       <div>
        <Modal show={open} onHide={handleDialogClose } animation={false}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal heading</Modal.Title>
+          <Modal.Title>Delete movie</Modal.Title>
         </Modal.Header>
-        <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+        <Modal.Body>Are you want to delete the movie</Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleDialogClose}>
             Close
