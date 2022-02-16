@@ -8,9 +8,9 @@ export default function Navbars(){
     <Container>
     <Navbar.Brand href="#home">Netflix-Clone</Navbar.Brand>
     <Nav className="me-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#favourite">favourite</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
+      <Nav.Link href="/">Home</Nav.Link>
+      <Nav.Link href="/favourite">Favourite</Nav.Link>
+      <Nav.Link href="/aboutUs">AboutUs</Nav.Link>
     </Nav>
     </Container>
   </Navbar>
