@@ -6,7 +6,7 @@ import Movie from "../Movie/Movie";
 
 // const apiKey =process.env.API_KEY
 export default function MovieList(){
-
+let page="home"
     const [data,setData]=useState([]);
     const getTrending = async()=>{
   return await axios.get(`https://msaqer-app.herokuapp.com/search`).then(result=>{
@@ -28,7 +28,7 @@ export default function MovieList(){
   return(
  <>
   
-  <Movie data={data}/>
+  <Movie data={data} page={page}/>
   </>
   )
 
