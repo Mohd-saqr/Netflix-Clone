@@ -47,7 +47,7 @@ axios.put(`https://msaqer-app.herokuapp.com/UPDATE/${id}`,updated).then(()=>{
                 <Modal.Body className="body">
                 <input   type="text"  value={titleInput} onChange={(e)=>{
                     setTitleInput(e.target.value)
-                    console.log(e.target.value);
+                    
                    
                 }}/>
                 <br></br>
@@ -66,7 +66,7 @@ axios.put(`https://msaqer-app.herokuapp.com/UPDATE/${id}`,updated).then(()=>{
                     <Button variant="primary" onClick={()=>{
               update(ele.id);
               handleCloseUpdate();
-                    }} > Add To Favorite </Button>
+                    }} > Update</Button>
                 </Modal.Footer>
 
 

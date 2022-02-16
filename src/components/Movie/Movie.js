@@ -64,7 +64,7 @@ data.length && data.map(el=>{
             {el.overview}
             </Card.Text>
             <Card.Text>
-            comment : {el.comment}
+           <h4>comment :</h4> {el.comment}
             </Card.Text>
             <Button onClick={()=>{
                 setopenUpdateDialog(true)
