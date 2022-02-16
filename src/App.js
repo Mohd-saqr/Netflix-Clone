@@ -8,11 +8,8 @@ function App() {
   return (
     <>
     <Navbars/>
-    
    <Routes>
-    
-    
-    <Route path='/favourite' element ={<FavList/>} />
+    <Route path="/favourite" element ={<FavList/>} />
     <Route   path="/"  element={<Home/>}/>
     </Routes>
     </>
