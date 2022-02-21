@@ -10,7 +10,7 @@ export default function Navbars(){
     <Nav className="me-auto">
       <Nav.Link href="/">Home</Nav.Link>
       <Nav.Link href="/favourite">Favourite</Nav.Link>
-      <Nav.Link href="/">AboutUs</Nav.Link>
+      <Nav.Link href="/AboutUs">AboutUs</Nav.Link>
     </Nav>
     </Container>
   </Navbar>
